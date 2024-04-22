@@ -28,5 +28,7 @@ public class Main2 {
                 +"Contacto:%d\n",
                 nombre, apellido, direccion,numDireccion, ciudad, telefono);
         System.out.println(etiqueta);
+
+
     }
 }

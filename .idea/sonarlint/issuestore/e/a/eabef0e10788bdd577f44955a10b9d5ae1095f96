@@ -1,0 +1,13 @@
+
+~
+java:S1854"6Remove this useless assignment to local variable "sc".(ğÛ²¸øÿÿÿÿ8‘™‡øî1J$a4d83fdd-dadc-41b6-b67b-80fec7eb021c
+o
+java:S1481"'Remove this unused "sc" local variable.(ğÛ²¸øÿÿÿÿ8“™‡øî1J$2b64d1b1-4454-43fb-85f5-68eee2a822a4
+~	java:S125
+"<This block of commented-out lines of code should be removed.(ôåìâ8”™‡øî1J$cab93147-37f0-4d2a-9964-9525bdd1565a
+~	java:S125"<This block of commented-out lines of code should be removed.(„è¹Å8”™‡øî1J$c548a7ab-6954-4989-895c-2ae20a81d88d
+~	java:S125"<This block of commented-out lines of code should be removed.(á°»€8”™‡øî1J$07d7868d-f434-40ea-927e-b474926a9eda
+~	java:S125'"<This block of commented-out lines of code should be removed.(êË¦ä8”™‡øî1J$e2fbf3a4-1c72-4c93-9fc5-f63f8c6aa847
+m	java:S106:"+Replace this use of System.out by a logger.(¾¨È®8”™‡øî1J$6f11c5fd-8b12-4635-84a5-414b16cd2c39
+}
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8•™‡øî1J$bc583ef8-8b43-4a1f-818f-37efabbca7be

@@ -1,5 +1,13 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(±–³8íƒóÊï1J$73d39d58-07a6-4796-8f8d-a2227eaa11da
-ƒ	java:S125	"<This block of commented-out lines of code should be removed.(èü™úüÿÿÿÿ8íƒóÊï1J$99e69423-dc54-4b89-be6e-4238740d8f34
-m	java:S106"+Replace this use of System.out by a logger.(´¡¹ñ8îƒóÊï1J$fbf31650-3780-459e-8f3f-54e356b393ca
-m	java:S106"+Replace this use of System.out by a logger.(éÿü†8îƒóÊï1J$c7c6e37b-1625-47a2-b0d3-8689770b1bd9
+“
+java:S1192""PUse already-defined constant 'ANSI_GREEN' instead of duplicating its value here.(´¡¹ñ8¨Ú©Åğ1J$6a3dd6f6-27d8-4b47-9862-fa7c69cbedee
+‘
+java:S1192$"NUse already-defined constant 'ANSI_RED' instead of duplicating its value here.(éÿü†8©Ú©Åğ1J$6cd00b36-6c1d-4f5e-8d89-5a0ddeadb966
+“
+java:S1192""PUse already-defined constant 'ANSI_RESET' instead of duplicating its value here.(´¡¹ñ8©Ú©Åğ1J$d599357a-98e6-405f-a294-3d7207d422b8
+m	java:S106"+Replace this use of System.out by a logger.(±–³8ÃÈ¥Åğ1J$c5eb621f-ed03-48ba-8fa1-638374abab61
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(èü™úüÿÿÿÿ8ÄÈ¥Åğ1J$3facff7f-931b-44f3-8eb2-bda867fe7590
+m	java:S106""+Replace this use of System.out by a logger.(´¡¹ñ8ÄÈ¥Åğ1J$708a6a94-7ad0-4355-9808-0e990be852d7
+m	java:S106$"+Replace this use of System.out by a logger.(éÿü†8ÅÈ¥Åğ1J$14900953-2fcc-428a-b120-3488837d1d60
+~	java:S125&"<This block of commented-out lines of code should be removed.(ùüÈÊ8ç§Åğ1J$cc99fb0c-3dec-4cb5-99de-5164812af4f6
+ƒ	java:S125-"<This block of commented-out lines of code should be removed.(ĞÔªşÿÿÿÿ8Äí¨Åğ1J$85e09945-eb9e-4342-bde2-aacc662fdf89

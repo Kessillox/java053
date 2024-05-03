@@ -4,7 +4,7 @@ public class LambdaDemo {
     public static void main(String[] args) {
         //Implementa la operción utilizando Lambda para sumar dos número
         //podría ser cualquier operación
-        Operacion suma =(a,b)->a+b;
+        Operacion suma =(a,b)->a*b;
         System.out.println("La suma es: "+suma.operar(5,3));
     }
 }

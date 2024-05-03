@@ -1,9 +1,9 @@
 
 ~
-java:S1854"6Remove this useless assignment to local variable "sc".(נÛ²¸רÿÿÿÿ8טשמ1J$38dbe887-241e-44bb-94a1-a04a5ddc0e11
+java:S1854"6Remove this useless assignment to local variable "sc".(נÛ²¸רÿÿÿÿ8טשמ1J$f1434378-486d-4b48-a63e-af8d17b03da5
 o
-java:S1481"'Remove this unused "sc" local variable.(נÛ²¸רÿÿÿÿ8טשמ1J$b80d4dfe-0be5-4a0f-8f3d-8dcd6d562d32
-m	java:S106"+Replace this use of System.out by a logger.(¾¨ָ®8טשמ1J$22dffd9c-0f7d-4650-b4b3-3940f9b962b9
-l	java:S106"+Replace this use of System.out by a logger.(נב8טשמ1J$a73e3703-e5af-4a4c-98a7-76c971e0f7e0
-l	java:S106#"+Replace this use of System.out by a logger.(נב8טשמ1J$9e0b44c9-19b5-4d59-b3c4-c93bbf022750
-l	java:S106*"+Replace this use of System.out by a logger.(נב8טשמ1J$a6c510f4-772b-45d6-977a-b972a859a655
+java:S1481"'Remove this unused "sc" local variable.(נÛ²¸רÿÿÿÿ8טשמ1J$58f9c2af-05d2-4ae8-90ad-b94c57e88939
+m	java:S106"+Replace this use of System.out by a logger.(¾¨ָ®8טשמ1J$253ca695-2694-45ac-8bc6-82e216ca8b07
+l	java:S106"+Replace this use of System.out by a logger.(נב8טשמ1J$7e0e9bf8-9661-4fb0-80bb-9965a8e73005
+l	java:S106#"+Replace this use of System.out by a logger.(נב8טשמ1J$1d97c3b7-b8f7-49ea-8c89-501b8843b748
+l	java:S106*"+Replace this use of System.out by a logger.(נב8טשמ1J$697a4e20-c132-4ad1-9cef-248fc0fa0581

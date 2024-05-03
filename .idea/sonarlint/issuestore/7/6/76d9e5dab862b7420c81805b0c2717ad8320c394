@@ -1,13 +1,13 @@
 
 “
-java:S1192""PUse already-defined constant 'ANSI_GREEN' instead of duplicating its value here.(´¡¹ñ8¨Ú©Åğ1J$6a3dd6f6-27d8-4b47-9862-fa7c69cbedee
+java:S1192""PUse already-defined constant 'ANSI_GREEN' instead of duplicating its value here.(´¡¹ñ8¨Ú©Åğ1J$c1e8a14a-0236-49fe-8a7d-23a94294632f
 ‘
-java:S1192$"NUse already-defined constant 'ANSI_RED' instead of duplicating its value here.(éÿü†8©Ú©Åğ1J$6cd00b36-6c1d-4f5e-8d89-5a0ddeadb966
+java:S1192$"NUse already-defined constant 'ANSI_RED' instead of duplicating its value here.(éÿü†8©Ú©Åğ1J$b8fd6077-2257-4a76-84c6-00d5806f7103
 “
-java:S1192""PUse already-defined constant 'ANSI_RESET' instead of duplicating its value here.(´¡¹ñ8©Ú©Åğ1J$d599357a-98e6-405f-a294-3d7207d422b8
-m	java:S106"+Replace this use of System.out by a logger.(±–³8ÃÈ¥Åğ1J$c5eb621f-ed03-48ba-8fa1-638374abab61
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(èü™úüÿÿÿÿ8ÄÈ¥Åğ1J$3facff7f-931b-44f3-8eb2-bda867fe7590
-m	java:S106""+Replace this use of System.out by a logger.(´¡¹ñ8ÄÈ¥Åğ1J$708a6a94-7ad0-4355-9808-0e990be852d7
-m	java:S106$"+Replace this use of System.out by a logger.(éÿü†8ÅÈ¥Åğ1J$14900953-2fcc-428a-b120-3488837d1d60
-~	java:S125&"<This block of commented-out lines of code should be removed.(ùüÈÊ8ç§Åğ1J$cc99fb0c-3dec-4cb5-99de-5164812af4f6
-ƒ	java:S125-"<This block of commented-out lines of code should be removed.(ĞÔªşÿÿÿÿ8Äí¨Åğ1J$85e09945-eb9e-4342-bde2-aacc662fdf89
+java:S1192""PUse already-defined constant 'ANSI_RESET' instead of duplicating its value here.(´¡¹ñ8©Ú©Åğ1J$fa1afaa0-27a1-4942-914d-4352a8d156fa
+m	java:S106"+Replace this use of System.out by a logger.(±–³8ÃÈ¥Åğ1J$030c2007-0b77-4ffe-b8bc-cbdc078bdbb2
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(èü™úüÿÿÿÿ8ÄÈ¥Åğ1J$141d342d-0cce-486a-8505-b4c96434e87f
+m	java:S106""+Replace this use of System.out by a logger.(´¡¹ñ8ÄÈ¥Åğ1J$45910ec2-2452-4df5-ae62-fb11ff1e9cee
+m	java:S106$"+Replace this use of System.out by a logger.(éÿü†8ÅÈ¥Åğ1J$0d03a0d5-6ef8-4a84-8f2e-3946c8545f11
+~	java:S125&"<This block of commented-out lines of code should be removed.(ùüÈÊ8ç§Åğ1J$67209328-1174-415d-9cab-c4fbb6f49ca5
+ƒ	java:S125-"<This block of commented-out lines of code should be removed.(ĞÔªşÿÿÿÿ8Äí¨Åğ1J$b575d14b-9df5-4e36-ac8f-4e300b808815

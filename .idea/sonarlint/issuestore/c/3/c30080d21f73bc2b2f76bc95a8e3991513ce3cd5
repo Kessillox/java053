@@ -1,12 +1,12 @@
 
 š
-java:S1192"RDefine a constant instead of duplicating this literal "ingrese un numero" 3 times.(’¾—‚úÿÿÿÿ8¦¤Ûìğ1J$b68afe5a-a034-46cc-9d5e-ca46f3b6ec19
-r	java:S106"+Replace this use of System.out by a logger.(’¾—‚úÿÿÿÿ8é¥Ûìğ1J$862c1290-5ab5-4b34-83c9-3b6378e71a7a
-m	java:S106"+Replace this use of System.out by a logger.(‡·Ïü8é¥Ûìğ1J$beab9f38-ffd2-41e5-9d9c-e73dde821448
+java:S1192"RDefine a constant instead of duplicating this literal "ingrese un numero" 3 times.(’¾—‚úÿÿÿÿ8¦¤Ûìğ1J$d59bdd06-3b64-4f6e-b646-9061a4e26c3e
+r	java:S106"+Replace this use of System.out by a logger.(’¾—‚úÿÿÿÿ8é¥Ûìğ1J$cc992e12-2d27-4a28-b27c-52021c651e2f
+m	java:S106"+Replace this use of System.out by a logger.(‡·Ïü8é¥Ûìğ1J$b1e9ecf2-e239-4aef-805e-7c5f04b941cc
 i
-java:S1905"&Remove this unnecessary cast to "int".(—æä8ê¥Ûìğ1J$5eca461c-12df-4e62-a8e8-e2e2dc4d1cf0
-r	java:S106#"+Replace this use of System.out by a logger.(’¾—‚úÿÿÿÿ8ê¥Ûìğ1J$311c5134-25f5-4147-9f16-de8e920f39a8
-r	java:S106*"+Replace this use of System.out by a logger.(’¾—‚úÿÿÿÿ8ë¥Ûìğ1J$d6de6b6b-1d48-4a46-974a-25021b190367
+java:S1905"&Remove this unnecessary cast to "int".(—æä8ê¥Ûìğ1J$71a7146e-5c29-4bce-a9a7-8ddc9d863b8e
+r	java:S106#"+Replace this use of System.out by a logger.(’¾—‚úÿÿÿÿ8ê¥Ûìğ1J$8701f787-b3a7-4d98-bef0-bfa4f31542b5
+r	java:S106*"+Replace this use of System.out by a logger.(’¾—‚úÿÿÿÿ8ë¥Ûìğ1J$47f279d2-bc0b-4d46-b175-f143ae57899c
 i
-java:S19051"&Remove this unnecessary cast to "int".(…èÒš8ë¥Ûìğ1J$e4139968-bd67-4f15-9e07-af6409f2e80a
-m	java:S1062"+Replace this use of System.out by a logger.(İîº8õÔÛìğ1J$278208ec-5ac6-456f-92a7-d17f2d7e1748
+java:S19051"&Remove this unnecessary cast to "int".(…èÒš8ë¥Ûìğ1J$ab9689bf-5f7a-4bc4-b8a3-94764cbf8580
+m	java:S1062"+Replace this use of System.out by a logger.(İîº8õÔÛìğ1J$4e91bdca-120b-4c40-b335-62a0f82cd8ea

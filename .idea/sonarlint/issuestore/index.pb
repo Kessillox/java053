@@ -24,3 +24,13 @@ a
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+^
+.src/cl/praxis/miprimerjava/clases/Clase15.java,d/2/d234a1f5e1f93f74570c299108b3577780c75401
+a
+1src/cl/praxis/miprimerjava/clases/LambdaDemo.java,9/8/9812ccfe2a8255d9f2f07601fea6ef166275f2b9
+e
+5src/cl/praxis/miprimerjava/clases/FiltradoLambda.java,8/a/8ac1af0e4a687d56f14334d98e489049ef01fbc1
+h
+8src/cl/praxis/miprimerjava/clases/MayusculasStreams.java,a/7/a7d44e92cbe4f3efb6ae269f495831ffbd79cd31
+d
+4src/cl/praxis/miprimerjava/clases/CuadradoPares.java,1/5/1584b0e922e7dab0fc61bbe1f5de8db061bdd197

@@ -34,3 +34,5 @@ h
 8src/cl/praxis/miprimerjava/clases/MayusculasStreams.java,a/7/a7d44e92cbe4f3efb6ae269f495831ffbd79cd31
 d
 4src/cl/praxis/miprimerjava/clases/CuadradoPares.java,1/5/1584b0e922e7dab0fc61bbe1f5de8db061bdd197
+^
+.src/cl/praxis/miprimerjava/clases/CLase17.java,7/7/77dfb1daa2210b49a5044adeb7e3b046237b3ab7

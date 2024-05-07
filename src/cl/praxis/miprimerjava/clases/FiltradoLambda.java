@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 public class FiltradoLambda {
     public static void main(String[] args) {
         //List.of -> Este método permite crear listas inmutables de manera rápida
+        //fue agregado en java 9
         List<String> palabras = List.of("manzana", "banana", "cereza", "jugo");
         // Filtra palabras que contienen 'a', usando una expresión lambda.
         List<String> resultado = palabras.stream()

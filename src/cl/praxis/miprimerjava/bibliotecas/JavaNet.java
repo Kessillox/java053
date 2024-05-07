@@ -12,7 +12,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class JavaNet {
+public class    JavaNet {
     public static void main(String[] args) throws IOException, InterruptedException {
         System.out.println("---- Consumir Api ------------------------------------");
         consumirApi();

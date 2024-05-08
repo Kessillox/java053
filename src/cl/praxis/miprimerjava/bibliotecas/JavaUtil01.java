@@ -1,7 +1,5 @@
 package cl.praxis.miprimerjava.bibliotecas;
 
-import com.sun.security.jgss.GSSUtil;
-
 import java.util.*;
 
 public class JavaUtil01 {
@@ -9,7 +7,7 @@ public class JavaUtil01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Bienvenidos a JavaUtil01");
-        int option;
+        int option=0;
         do {
             System.out.println("Aquí se encontrarán las clases y metodos principales del paquete 'Java util' ");
             System.out.println("¿Con cuál te gustaría empezar?");
@@ -17,7 +15,6 @@ public class JavaUtil01 {
             System.out.println("2.- Arrays");
             System.out.println("3.- Scanner");
             System.out.println("4.- Salir");
-            System.out.println();
             option = sc.nextInt();
 
             switch (option) {
@@ -31,7 +28,9 @@ public class JavaUtil01 {
                     mostrarInfoScanner();
 
             }
+
         } while (!(option == 4));
+
     }
 
         public static void mostrarInfoCollection () {
@@ -64,9 +63,11 @@ public class JavaUtil01 {
                 System.out.println("10.-LinkedList como tipo pilas");
                 System.out.println();
                 System.out.println("11.- Volver al menú principal");
+                System.out.println();
                 System.out.println("Elige una opción para mayor información");
                 System.out.println();
                 option2 = sc.nextInt();
+                sc.nextLine();
                 System.out.println();
                 switch (option2) {
                     case 1:
@@ -114,6 +115,113 @@ public class JavaUtil01 {
 
                 }
             } while (!(option2 == 11));
+        }
+
+        public static void mostrarInfoArrays() {
+            Scanner sc = new Scanner(System.in);
+            int option3 = 0;
+            System.out.println("Para mayor info revisa los comentarios en el código");
+            System.out.println();
+                System.out.println("La clase Array en Java es una herramienta que te permite almacenar una colección ordenada de elementos del mismo tipo.\n" +
+                        " Imagina un contenedor donde puedes guardar varios valores del mismo tipo, como números enteros, números decimales o cadenas de \n" +
+                        "texto. Estos valores se organizan en posiciones específicas dentro del contenedor, y cada posición tiene un índice que la identifica.");
+                System.out.println();
+                int[] numeros = {5, 2, 8, 1, 9};
+
+                // Ordenar la matriz
+                Arrays.sort(numeros);
+                System.out.println("Matriz ordenada: " + Arrays.toString(numeros)); // Salida: Matriz ordenada: [1, 2, 5, 8, 9]
+                System.out.println();
+
+                // Buscar un valor en la matriz
+                int indice = Arrays.binarySearch(numeros, 8);
+                System.out.println("Índice del valor 8: " + indice); // Salida: Índice del valor 8: 3
+                System.out.println();
+
+                // Rellenar la matriz con un valor
+                Arrays.fill(numeros, 0);
+                System.out.println("Matriz rellenada: " + Arrays.toString(numeros)); // Salida: Matriz rellenada: [0, 0, 0, 0, 0]
+                System.out.println();
+            do {
+                System.out.println("Dentro de las clases de Arrays tenemos los siguientes métodos:");
+                System.out.println();
+                System.out.println("1.- sort");
+                System.out.println();
+                System.out.println("2.- binarySearch");
+                System.out.println();
+                System.out.println("3.- equals");
+                System.out.println();
+                System.out.println("4.- fill");
+                System.out.println();
+                System.out.println("5.- copyOf");
+                System.out.println();
+                System.out.println("6.- toString");
+                System.out.println();
+                System.out.println("7.- asList");
+                System.out.println();
+                System.out.println("8.- Volver al menú principal");
+                System.out.println();
+                System.out.print("Selecciona una opción: ");
+                System.out.println();
+                option3 = sc.nextInt();
+                sc.nextLine();
+
+                switch  (option3) {
+                    case 1:
+                        System.out.println("1.- sort");
+                        miSort();
+                        break;
+                    case 2:
+                        System.out.println("2.- binarySearch");
+                        miBinarySearch();
+                        break;
+                    case 3:
+                        System.out.println("3.- equals");
+                        miEquals();
+                        break;
+                    case 4:
+                        System.out.println("4.- fill");
+                        miFill();
+                        break;
+                    case 5:
+                        System.out.println("5.- copyOf");
+                        miCopyOf();
+                        break;
+                    case 6:
+                        System.out.println("6.- toString");
+                        miToString();
+                        break;
+                    case 7:
+                        System.out.println("7.- asList");
+                        miAsList();
+                        break;
+                    case 8:
+                        System.out.println("8.- Volver al menú principal");
+                        break;
+                }
+
+            }while (!(option3 == 8));
+        }
+        public static void mostrarInfoScanner() {
+            System.out.println("Para mayor info revisa los comentarios en el código");
+            System.out.println();
+            System.out.println("La clase Scanner es una herramienta útil en Java que te permite leer datos de entrada desde diferentes fuentes,\n" +
+                        " como la entrada estándar (por ejemplo, el teclado) o un archivo. Con Scanner, puedes leer diferentes tipos de datos,\n" +
+                        " como enteros, números decimales, cadenas de texto, etc.\n" +
+                        "\n" +
+                        "Para usar la clase Scanner, primero debes crear un objeto de tipo Scanner, y luego puedes usar métodos como nextInt(), \n" +
+                        "nextDouble(), nextLine(), entre otros, para leer los datos de entrada según el tipo que necesites.");
+            System.out.println();
+
+            Scanner scanner = new Scanner(System.in); // Crea un objeto Scanner para leer desde la entrada estándar
+
+            System.out.print("Ingresa tu nombre: ");
+            String nombre = scanner.nextLine(); // Lee una línea completa de entrada
+
+            System.out.print("Ingresa tu edad: ");
+            int edad = scanner.nextInt(); // Lee un entero de entrada
+
+            System.out.println("Tu nombre es " + nombre + " y tienes " + edad + " años.");
 
 
         }
@@ -508,42 +616,131 @@ public class JavaUtil01 {
             System.out.println("Pila después de limpiar: " + pilaNumeros);
         }
 
-        public static void mostrarInfoArrays() {
-            System.out.println("Para mayor info revisa los comentarios en el código");
-            System.out.println("nadi");
+        public static void miSort() {
+            int[] numeros = {5, 2, 9, 1, 7};
+
+            // Antes de ordenar
+            System.out.println("Arreglo antes de ordenar:");
+            for (int numero : numeros) {
+                System.out.print(numero + " ");
+            }
+            System.out.println();
+
+            // Ordenando el arreglo
+            Arrays.sort(numeros);
+
+            // Después de ordenar
+            System.out.println("Arreglo después de ordenar:");
+            for (int numero : numeros) {
+                System.out.print(numero + " ");
+            }
+            System.out.println();
         }
 
-        public static void mostrarInfoScanner() {
-            System.out.println("Para mayor info revisa los comentarios en el código");
-            System.out.println("La clase Scanner es una herramienta útil en Java que te permite leer datos de entrada desde diferentes fuentes,\n" +
-                    " como la entrada estándar (por ejemplo, el teclado) o un archivo. Con Scanner, puedes leer diferentes tipos de datos,\n" +
-                    " como enteros, números decimales, cadenas de texto, etc.\n" +
-                    "\n" +
-                    "Para usar la clase Scanner, primero debes crear un objeto de tipo Scanner, y luego puedes usar métodos como nextInt(), \n" +
-                    "nextDouble(), nextLine(), entre otros, para leer los datos de entrada según el tipo que necesites.");
+        public static void miBinarySearch() {
+            int[] numeros = {1, 2, 4, 6, 8, 10, 12};
+            int elementoABuscar = 6;
 
-            // Crear un objeto Scanner para leer entrada del usuario desde la consola
+            // Antes de buscar
+            System.out.println("Arreglo original:");
+            for (int numero : numeros) {
+                System.out.print(numero + " ");
+            }
+            System.out.println();
+
+            // Buscar el elemento
+            int indice = Arrays.binarySearch(numeros, elementoABuscar);
+
+            // Verificar si se encontró el elemento
+            if (indice >= 0) {
+                System.out.println("El elemento " + elementoABuscar + " está en el índice " + indice);
+            } else {
+                System.out.println("El elemento " + elementoABuscar + " no se encontró en el arreglo");
+            }
+        }
+
+        public static void miEquals() {
             Scanner scanner = new Scanner(System.in);
 
-            // Leer un entero desde la consola usando nextInt()
-            System.out.print("Ingrese un número entero: ");
-            int numeroEntero = scanner.nextInt();
-            System.out.println("Número ingresado: " + numeroEntero);
+            System.out.print("Ingrese el tamaño de las matrices: ");
+            int tamanio = scanner.nextInt();
 
-            // Leer un número decimal desde la consola usando nextDouble()
-            System.out.print("Ingrese un número decimal: ");
-            double numeroDecimal = scanner.nextDouble();
-            System.out.println("Número decimal ingresado: " + numeroDecimal);
+            int[] matriz1 = new int[tamanio];
+            int[] matriz2 = new int[tamanio];
 
-            // Leer una línea de texto desde la consola usando nextLine()
-            scanner.nextLine(); // Consumir el salto de línea pendiente
-            System.out.print("Ingrese una línea de texto: ");
-            String lineaTexto = scanner.nextLine();
-            System.out.println("Línea de texto ingresada: " + lineaTexto);
+            System.out.println("Ingrese los elementos de la primera matriz:");
+            for (int i = 0; i < tamanio; i++) {
+                matriz1[i] = scanner.nextInt();
+            }
 
-            // Cerrar el objeto Scanner para liberar recursos
-            scanner.close();
+            System.out.println("Ingrese los elementos de la segunda matriz:");
+            for (int i = 0; i < tamanio; i++) {
+                matriz2[i] = scanner.nextInt();
+            }
+
+            boolean sonIguales = Arrays.equals(matriz1, matriz2);
+
+            if (sonIguales) {
+                System.out.println("Las matrices son iguales.");
+                // Realizar operaciones adicionales si las matrices son iguales
+            } else {
+                System.out.println("Las matrices son diferentes.");
+                // Realizar operaciones adicionales si las matrices son diferentes
+            }
+
         }
+
+        public static void miFill () {
+            // Crear un arreglo de enteros
+            int[] arreglo = new int[5];
+
+            // Antes de llenar el arreglo
+            System.out.println("Arreglo antes de llenar:");
+            System.out.println(Arrays.toString(arreglo));
+
+            // Llenar el arreglo con el valor 10
+            Arrays.fill(arreglo, 10);
+
+            // Después de llenar el arreglo
+            System.out.println("Arreglo después de llenar:");
+            System.out.println(Arrays.toString(arreglo));
+        }
+
+        public static void miCopyOf () {
+            int[] original = {1, 2, 3};
+            int[] copia = Arrays.copyOf(original, 5); // copia = [1, 2, 3, 0, 0]
+
+            String[] palabras = {"hola", "mundo"};
+            String[] copiaPalabras = Arrays.copyOf(palabras, 4); // copiaPalabras = ["hola", "mundo", null, null]
+        }
+
+        public static void miToString () {
+            int[] numeros = {1, 2, 3};
+            String cadena = Arrays.toString(numeros); // cadena = "[1, 2, 3]"
+
+            String[] palabras = {"hola", "mundo"};
+            String cadenaPalabras = Arrays.toString(palabras); // cadenaPalabras = "[hola, mundo]"
+        }
+
+        public static void miAsList () {
+            // Crear un arreglo de strings
+            String[] palabras = {"Hola", "Mundo", "Java"};
+
+            // Convertir el arreglo en una lista
+            List<String> lista = Arrays.asList(palabras);
+
+            // Imprimir la lista
+            System.out.println("Lista creada a partir del arreglo:");
+            System.out.println(lista);
+
+            // Modificar el arreglo original
+            palabras[2] = "Programación";
+
+            // Imprimir la lista nuevamente para ver los cambios
+            System.out.println("Lista después de modificar el arreglo original:");
+            System.out.println(lista);
+        }
+
     }
 
 

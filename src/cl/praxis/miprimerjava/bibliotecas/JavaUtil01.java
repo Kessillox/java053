@@ -117,6 +117,9 @@ public class JavaUtil01 {
         } while (!(option2 == 11));
     }
 
+    private static void miArrayListPilas() {
+    }
+
     public static void mostrarInfoArrays() {
         Scanner sc = new Scanner(System.in);
         int option3 = 0;
@@ -201,6 +204,27 @@ public class JavaUtil01 {
             }
 
         } while (!(option3 == 8));
+    }
+
+    private static void miBinarySearch() {
+    }
+
+    private static void miCopyOf() {
+    }
+
+    private static void miToString() {
+    }
+
+    private static void miAsList() {
+    }
+
+    private static void miFill() {
+    }
+
+    private static void miEquals() {
+    }
+
+    private static void miSort() {
     }
 
     public static void mostrarInfoScanner() {

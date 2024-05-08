@@ -1,6 +1,6 @@
 package cl.praxis.miprimerjava.bibliotecas;
 
-public class JavaUtil01 {asdasdawdkjasjsdkfjkfjasdkfjaksjdf
+public class JavaUtil01 {
 
 
 }

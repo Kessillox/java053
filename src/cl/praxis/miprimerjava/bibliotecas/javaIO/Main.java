@@ -8,7 +8,7 @@ public class Main {
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
 
-        //metodo crear fichero
+        //metodo crear directorio
         System.out.println("Ingrese el nombre del directorio que desea crear");
         String nameDirectory = sc.nextLine();
         File directoryCreated = directoryCreator(nameDirectory);
@@ -42,6 +42,9 @@ public class Main {
 
         //metodo leer archivo
         readerFile(fileCreated);
+
+        //Metodo escritura PrintWritter
+         printerFile(directoryCreated);
     }
     public static File directoryCreator (String nameDirectory){
         File creatingDirectory = new File("src/cl/praxis/miprimerjava/bibliotecas/javaIO/"+nameDirectory);
@@ -60,6 +63,7 @@ public class Main {
         }
         return creatingDirectory;
     }
+
     public static File fileCreator(String nameFile, File directoryCreated){
 
         if(!nameFile.endsWith(".txt")){
@@ -110,7 +114,6 @@ public class Main {
     }
     public static void readerFile(File fileCreated){
         String element;
-        char [] arrayInteger = new char[1234];
 
         try(FileReader newReader = new FileReader(fileCreated);
             BufferedReader newBufferedR = new BufferedReader(newReader)){
@@ -122,11 +125,41 @@ public class Main {
             }
 
             //Lectura de un arreglo
-            int value = newBufferedR.read(arrayInteger,0,arrayInteger.length);
-            System.out.println(value);
+            int value;
+            List<String> newList = new ArrayList<String>();
+            char [] arrayInteger = new char[1234];
 
+            while((value = newBufferedR.read(arrayInteger,0,arrayInteger.length))!= -1){
+                System.out.println("value");
+            }
+            
         }catch (IOException e){
             System.out.println("Error al Leer el archivo" + e.getMessage());
+        }
+    }
+    
+    public static void printerFile(File createdDirectory) {
+        int value = 3;
+        File newPrinterFile = new File(createdDirectory,"archivoPrinter.txt");
+
+        //creacion de archivo nuevo
+        try{
+              if(newPrinterFile.createNewFile()){
+                  System.out.println("el archivo se creo correctamente (printer)");
+              }else{
+                  System.out.println("el archivo no se creo");
+              }
+        }catch (IOException e){
+            System.out.println("Error al crear el archivo"+e.getMessage());
+        }
+
+       //escritura con el metodo printf de la clase PrintWritter
+        try (PrintWriter printer = new PrintWriter(newPrinterFile)) {
+                 for(int i=0; i<10; i++){
+                     printer.printf("Valor numero %d\n",i);
+                 }
+        } catch (IOException e) {
+            System.out.println("No se pudo escribir en el archivo");
         }
     }
 }

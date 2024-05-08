@@ -1,0 +1,25 @@
+
+Ÿ
+java:S14880"\Immediately return this expression instead of assigning it to the temporary variable "suma".(—ûŠÊ8‹·Íêğ1J$6ff0ecc3-82e2-4df7-a00e-35b599ffaac8
+x
+java:S1854"5Remove this useless assignment to local variable "b".(½ë˜û8š“ëğ1J$eb090de1-85c4-4aad-a552-4eed00d9ffb8
+}
+java:S1854"5Remove this useless assignment to local variable "a".(ÁğŒùÿÿÿÿ8»»“ëğ1J$d581aae2-f1fb-4e41-9400-8ca4da44c527
+{
+java:S1854"8Remove this useless assignment to local variable "suma".(ã²¨µ8óàÔêğ1J$066554cf-4cc1-41c4-8a2b-191bbd794065
+m	java:S106"+Replace this use of System.out by a logger.(Áñ™Í8æÜäÅğ1J$ac49671a-a031-4918-9da5-c8c95381951b
+l
+java:S1481")Remove this unused "suma" local variable.(ã²¨µ8øàÔêğ1J$0056a71c-30ef-459f-8f6e-01a40cc80d81
+n
+java:S1481"&Remove this unused "a" local variable.(ÁğŒùÿÿÿÿ8•š“ëğ1J$cbe239cb-ff33-410b-8d36-1b4b7b2d30ed
+i
+java:S1481"&Remove this unused "b" local variable.(½ë˜û8Á»“ëğ1J$60e7ec74-656e-4d63-9ddb-88d574b0b932
+r	java:S106"+Replace this use of System.out by a logger.(«Î•ıÿÿÿÿ8èÜäÅğ1J$1146d8c8-b71f-4f72-b90a-1bbf3e3a0d13
+m	java:S106)"+Replace this use of System.out by a logger.(ê®òÿ8éÜäÅğ1J$12ad07f5-412e-4e43-8a00-c21fd7c82ba2
+r	java:S106*"+Replace this use of System.out by a logger.(›äğıÿÿÿÿÿ8éÜäÅğ1J$b812e6fd-467d-4376-b336-da0019646dff
+r	java:S106+"+Replace this use of System.out by a logger.(ó£æğúÿÿÿÿ8¥àçÅğ1J$dea7891a-2707-4c64-a9d6-44eeaff6d9d5
+r	java:S106,"+Replace this use of System.out by a logger.(ªÚÒıÿÿÿÿ8¥àçÅğ1J$2f0f1c49-8765-417d-8db7-9ad94d389d61
+r	java:S106/"+Replace this use of System.out by a logger.(Ÿİ¶üûÿÿÿÿ8¦àçÅğ1J$249d4afc-1a67-4d9f-8664-2f0ff76eb3b0
+r	java:S1064"+Replace this use of System.out by a logger.(Óç……ıÿÿÿÿ8¦àçÅğ1J$ffd75354-9172-4fbf-9ca8-8835ecbcedfe
+r	java:S1067"+Replace this use of System.out by a logger.(Ì–¹ıÿÿÿÿ8¦àçÅğ1J$abe32029-4b9d-4c62-99f8-7038e42de19b
+r	java:S106:"+Replace this use of System.out by a logger.(Øı¥İşÿÿÿÿ8ºÜÎêğ1J$460c28a8-97f6-449c-9f46-69e7f48cb470

@@ -1,0 +1,12 @@
+
+š
+java:S1192"RDefine a constant instead of duplicating this literal "ingrese un numero" 3 times.(’¾—‚úÿÿÿÿ8¦¤Ûìğ1J$d59bdd06-3b64-4f6e-b646-9061a4e26c3e
+r	java:S106"+Replace this use of System.out by a logger.(’¾—‚úÿÿÿÿ8é¥Ûìğ1J$cc992e12-2d27-4a28-b27c-52021c651e2f
+m	java:S106"+Replace this use of System.out by a logger.(‡·Ïü8é¥Ûìğ1J$b1e9ecf2-e239-4aef-805e-7c5f04b941cc
+i
+java:S1905"&Remove this unnecessary cast to "int".(—æä8ê¥Ûìğ1J$71a7146e-5c29-4bce-a9a7-8ddc9d863b8e
+r	java:S106#"+Replace this use of System.out by a logger.(’¾—‚úÿÿÿÿ8ê¥Ûìğ1J$8701f787-b3a7-4d98-bef0-bfa4f31542b5
+r	java:S106*"+Replace this use of System.out by a logger.(’¾—‚úÿÿÿÿ8ë¥Ûìğ1J$47f279d2-bc0b-4d46-b175-f143ae57899c
+i
+java:S19051"&Remove this unnecessary cast to "int".(…èÒš8ë¥Ûìğ1J$ab9689bf-5f7a-4bc4-b8a3-94764cbf8580
+m	java:S1062"+Replace this use of System.out by a logger.(İîº8õÔÛìğ1J$4e91bdca-120b-4c40-b335-62a0f82cd8ea

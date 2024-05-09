@@ -124,15 +124,6 @@ public class Main {
                 System.out.println(element);
             }
 
-            //Lectura de un arreglo
-            int value;
-            List<String> newList = new ArrayList<String>();
-            char [] arrayInteger = new char[1234];
-
-            while((value = newBufferedR.read(arrayInteger,0,arrayInteger.length))!= -1){
-                System.out.println("value");
-            }
-            
         }catch (IOException e){
             System.out.println("Error al Leer el archivo" + e.getMessage());
         }

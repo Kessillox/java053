@@ -1,7 +1,5 @@
 package cl.praxis.miprimerjava;
 
-import java.util.Scanner;
-
 public class Main {
     //Esto es un comentario en línea
 

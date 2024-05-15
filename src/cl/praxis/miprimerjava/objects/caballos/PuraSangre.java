@@ -1,4 +1,4 @@
-package cl.praxis.miprimerjava.objects;
+package cl.praxis.miprimerjava.objects.caballos;
 
 public class PuraSangre extends Caballo {
     private String padre;

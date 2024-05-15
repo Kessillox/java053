@@ -1,4 +1,4 @@
-package cl.praxis.miprimerjava.objects;
+package cl.praxis.miprimerjava.objects.caballos;
 
 public interface Equino {
     void hablar();

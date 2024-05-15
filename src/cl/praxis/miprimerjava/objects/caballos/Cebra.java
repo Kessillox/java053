@@ -1,4 +1,4 @@
-package cl.praxis.miprimerjava.objects;
+package cl.praxis.miprimerjava.objects.caballos;
 
 public class Cebra implements Equino{
     private String nombre;

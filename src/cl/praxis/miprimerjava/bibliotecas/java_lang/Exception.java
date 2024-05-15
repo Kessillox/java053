@@ -8,7 +8,7 @@ public class Exception extends Throwable {
     public static void main(String[] args) {
         try {
             // Llamamos a un método que puede lanzar una excepción
-            dividir(10, 2);
+            dividir(10, 0);
         } catch (ArithmeticException e) {
             // Capturamos la excepción específica ArithmeticException
             System.out.println(ANSI_BLUE + "No se puede dividir por cero.");

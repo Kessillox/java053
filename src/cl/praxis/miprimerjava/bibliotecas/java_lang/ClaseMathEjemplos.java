@@ -1,4 +1,4 @@
-package cl.praxis.miprimerjava.java_lang;
+package cl.praxis.miprimerjava.bibliotecas.java_lang;
 
 public class ClaseMathEjemplos {
     public static void main(String[] args) {

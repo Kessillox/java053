@@ -62,6 +62,7 @@ public class Java {
         }
         //Condicional para manejo de excepciones
         Scanner sc = new Scanner(System.in);
+
         try{
             //Bloque de código que se va a ejecutar
             System.out.println("Ingrese el valor de variable entera");

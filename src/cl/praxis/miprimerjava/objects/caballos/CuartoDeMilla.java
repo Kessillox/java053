@@ -1,6 +1,6 @@
 package cl.praxis.miprimerjava.objects.caballos;
 
-public class CuartoDeMilla extends Caballo{
+public class CuartoDeMilla extends Caballo {
 
     public String padre;
     public String madre;

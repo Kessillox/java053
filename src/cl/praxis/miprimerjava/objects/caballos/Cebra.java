@@ -1,6 +1,6 @@
 package cl.praxis.miprimerjava.objects.caballos;
 
-public class Cebra implements Equino{
+public class Cebra implements Equino {
     private String nombre;
 
     public Cebra(String nombre) { this.nombre = nombre; }

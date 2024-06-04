@@ -1,6 +1,6 @@
 package cl.praxis.miprimerjava.objects.caballos;
 
-public class Caballo implements Equino{
+public class Caballo implements Equino {
     private String nombre;
     private String fechaDeNacimiento;
 

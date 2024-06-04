@@ -76,3 +76,15 @@ Z
 -src/cl/praxis/miprimerjava/java/Arreglos.java,1/9/19464de539364154d20ffaa74506f9b7cca5af2d
 [
 +src/cl/praxis/miprimerjava/java/Listas.java,8/1/81323873c4c42a755a31c252481a5605f41e71c8
+Y
+)src/cl/praxis/miprimerjava/swing/App.java,c/4/c42db2b68f0b821b032de580c5e2de1a7869fcf7
+g
+7src/cl/praxis/miprimerjava/objects/escuela/Persona.java,a/9/a939aa93e2ab037a494e79396eb056997d9f397f
+k
+;src/cl/praxis/miprimerjava/objects/escuela/MainEscuela.java,a/b/abe76b5a62a3eb252a8deec0494057533680f181
+j
+:src/cl/praxis/miprimerjava/objects/escuela/Estudiante.java,1/5/15a9cad2af851376bb3bb9eb43098afc6db41dc7
+i
+9src/cl/praxis/miprimerjava/objects/escuela/Apoderado.java,9/4/94508364971cad57ba1fd7c5edf1b989fe9ddd7d
+j
+:src/cl/praxis/miprimerjava/objects/escuela/Instructor.java,4/9/490e4d326d17125918c82bd50ad19c05c37cbe6a

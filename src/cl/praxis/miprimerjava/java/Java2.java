@@ -59,7 +59,7 @@ public class Java2 {
 //            System.out.println(contador);
 //            System.out.println(contador2);
 //            contador2+=contador;
-//        }while(contador<5);
+//        }while(contador2<5);
 
 //        while(contador2<5){
 //            System.out.println(contador2);
@@ -70,11 +70,11 @@ public class Java2 {
 //            System.out.println(i);
 //        }
 
-//        for (int i = 0; i < 10; i++) {
-//            for (int j = 0; j < 10; j++) {
-//                System.out.printf("%d%d \n", i,j);
-//
-//            }
-//        }
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                System.out.printf("%d%d \n", i,j);
+
+            }
+        }
     }
 }

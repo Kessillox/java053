@@ -74,9 +74,5 @@ Z
 *src/cl/praxis/miprimerjava/java/Java2.java,f/5/f547fe27a87eed69430dd6f5993aeffd2df163f8
 ]
 -src/cl/praxis/miprimerjava/java/Arreglos.java,1/9/19464de539364154d20ffaa74506f9b7cca5af2d
-b
-2src/cl/praxis/miprimerjava/java/ArraysAndList.java,d/6/d6ae9d3aaaccc84f184e8805c763f7dbd61dbc57
-Y
-)src/cl/praxis/miprimerjava/java/List.java,b/e/be7d5146e410009673c28630ec1b6ded5dcfc274
 [
 +src/cl/praxis/miprimerjava/java/Listas.java,8/1/81323873c4c42a755a31c252481a5605f41e71c8

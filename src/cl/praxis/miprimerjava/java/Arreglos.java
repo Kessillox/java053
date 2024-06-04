@@ -1,7 +1,7 @@
 package cl.praxis.miprimerjava.java;
 
 import java.util.Arrays;
-import java.util.Scanner;
+
 
 public class Arreglos {
     public static void main(String[] args) {

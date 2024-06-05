@@ -102,3 +102,15 @@ h
 8src/cl/praxis/miprimerjava/objects/animales/Volador.java,9/d/9d7d6b3e14958e79a111143a09a904a5fd61d14d
 d
 4src/cl/praxis/miprimerjava/objects/animales/Pez.java,6/7/674e9c28a1dc2ec8b5d66518c1abb7aa8b0b9558
+f
+6src/cl/praxis/miprimerjava/singleton/configurador.java,a/e/ae3427554409b5706db64404a1c081bec70ad7b0
+f
+6src/cl/praxis/miprimerjava/singleton/Configurador.java,6/1/61568da10f2ccf082464e714e8947074b69f9304
+g
+7src/cl/praxis/miprimerjava/singleton/MainSingleton.java,c/8/c8bcc17f62d2dd31aed626714b6c5be750faa735
+l
+<src/cl/praxis/miprimerjava/instituto/InstitutoEducativo.java,e/2/e288640919ead428221c3002337031e07513e8ea
+g
+7src/cl/praxis/miprimerjava/instituto/MainInstituto.java,3/2/32a3e05ee7a1803539fd754dcc88ebe9c2d6f116
+m
+=src/cl/praxis/miprimerjava/instituto/InstitutoEducativo2.java,e/0/e0fe80055d38e61211a15a59f70af442a6f625f5

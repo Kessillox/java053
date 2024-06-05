@@ -88,3 +88,17 @@ i
 9src/cl/praxis/miprimerjava/objects/escuela/Apoderado.java,9/4/94508364971cad57ba1fd7c5edf1b989fe9ddd7d
 j
 :src/cl/praxis/miprimerjava/objects/escuela/Instructor.java,4/9/490e4d326d17125918c82bd50ad19c05c37cbe6a
+g
+7src/cl/praxis/miprimerjava/objects/animales/Animal.java,b/8/b8eda40026d338ec5e5726871e4bbf61fbc94636
+e
+5src/cl/praxis/miprimerjava/objects/animales/Gato.java,d/8/d8949ad8e7871bf94d2b5635dd389ca1e6bae291
+f
+6src/cl/praxis/miprimerjava/objects/animales/Perro.java,e/c/ec0405226842a7d4e5dd2ac6ac64b44a1326dec0
+g
+7src/cl/praxis/miprimerjava/objects/animales/Pajaro.java,9/2/92bc05aaeda8009e82f2e743f4f435f420493c8d
+m
+=src/cl/praxis/miprimerjava/objects/animales/MainAnimales.java,4/c/4c08597e7ff53dc36067b4fad40cededf37de5dd
+h
+8src/cl/praxis/miprimerjava/objects/animales/Volador.java,9/d/9d7d6b3e14958e79a111143a09a904a5fd61d14d
+d
+4src/cl/praxis/miprimerjava/objects/animales/Pez.java,6/7/674e9c28a1dc2ec8b5d66518c1abb7aa8b0b9558

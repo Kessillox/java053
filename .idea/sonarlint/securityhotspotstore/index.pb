@@ -116,3 +116,9 @@ m
 =src/cl/praxis/miprimerjava/instituto/InstitutoEducativo2.java,e/0/e0fe80055d38e61211a15a59f70af442a6f625f5
 d
 4src/cl/praxis/miprimerjava/clases/Clase29Listas.java,d/5/d5a257a4a1a0d887473c66b1a527ebd050c442a0
+a
+1src/cl/praxis/miprimerjava/clases/Clase30Set.java,c/e/ceeeab4912eeac5b266e5cad00eb8edf96c87e65
+c
+3src/cl/praxis/miprimerjava/clases/Clase30Queue.java,4/6/461864ec6f686c222a49505af54ee24d95fca755
+a
+1src/cl/praxis/miprimerjava/clases/Clase30Map.java,f/2/f236bdf66b327ace2a5caad506fc057005062b2f
